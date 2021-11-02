@@ -8,7 +8,9 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "area.calculator.distance.finder.compass.level.meter"
+
+        // add your package name here
+        applicationId "com.billingdemonew.app"
         minSdk 21
         targetSdk 31
         versionCode 1
