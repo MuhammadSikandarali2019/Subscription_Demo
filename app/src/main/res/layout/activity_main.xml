@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:text="You must have to sign in playstore to enable google play services"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/montlyPrice" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/subBtnYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Subscribe Yearly"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/subBtnMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Subscribe Monthly"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/subBtnYear"
+        app:layout_constraintStart_toStartOf="@+id/subBtnYear"
+        app:layout_constraintTop_toBottomOf="@+id/subBtnYear"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/montlyPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Subscribe"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/yearlyPrice"
+        app:layout_constraintStart_toStartOf="@+id/yearlyPrice"
+        app:layout_constraintTop_toBottomOf="@+id/yearlyPrice"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/yearlyPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Subscribe"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/subBtnMonth"
+        app:layout_constraintStart_toStartOf="@+id/subBtnMonth"
+        app:layout_constraintTop_toBottomOf="@+id/subBtnMonth"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
