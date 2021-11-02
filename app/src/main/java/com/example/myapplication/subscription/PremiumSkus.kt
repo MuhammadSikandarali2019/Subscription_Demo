@@ -4,12 +4,10 @@ object PremiumSkus {
 
 
 
-    const val monthlySubscriptionId = "monthly_sub"
-    const val yearlySubscriptionId = "yearly_sub"
 
 
-//    const val monthlySubscriptionId = "your_sub_id"
-//    const val yearlySubscriptionId = "your_sub_id"
+    const val monthlySubscriptionId = "your_sub_id"
+    const val yearlySubscriptionId = "your_sub_id"
 
     val SUBS_SKUS = listOf(
         monthlySubscriptionId,

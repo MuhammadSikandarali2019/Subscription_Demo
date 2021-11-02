@@ -13,10 +13,8 @@ object Security {
     private val KEY_FACTORY_ALGORITHM = "RSA"
     private val SIGNATURE_ALGORITHM = "SHA1withRSA"
 
-    val BASE_64_ENCODED_PUBLIC_KEY =
-        "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArGj+ACJ/KfoW20Anay+gHJNTEaLnMNGsM/RP1g5KJIwl53Ir3bSTjtSnvmjh6cecnxSiYTke1fgzZLRgk7xeKuzmiE2HHvhlnkFFSxRB4Am+Tp2yCZ1wDVhWMlzMsBhTQ3WC562GzVVpQ3tlNnm3TjoJ93v6N3r90T0LfIGPdZgXfGSshdoLaz8aMU7zUqXvo155iCnWDC9IviG8VW7FGNbg2CCOwPUShjZJzc9xEKXHk495Ks3IOf0f43U7sCQ3JZR+N38AweH9KNJm0R0id2gRh/vs4sz1hOMHRwp28sNO3BRu5v+Md4Rde9YeVv8P4qg0i9P8j2f9puw2XjxwcQIDAQAB"
 
-//    val BASE_64_ENCODED_PUBLIC_KEY ="add you billing key generated from google play console"
+    val BASE_64_ENCODED_PUBLIC_KEY ="add you billing key generated from google play console"
 
 
     @Throws(IOException::class)
