@@ -6,7 +6,7 @@ IMPORTANT</br>
 2- add your real package name in application id </br>
 3- add your email in license tester from google play console to test (Subscription) </br>
 4- add your live skus </br>
-5- add your billing security which can be generated from google play console for apps </br>
+5- add your billing security which can be generated from google play console for apps BASE_64_ENCODED_PUBLIC_KEY </br>
 6- add payment method (optional) (for testing) </br>
 
 
