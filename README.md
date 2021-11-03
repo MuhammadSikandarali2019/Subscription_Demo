@@ -1,5 +1,5 @@
-# Subscription_Demo
-this is the demo of billing new library v3 for android native
+# Billing library v3 demo android
+This is the demo of billing new library v3 for android native
 
 IMPORTANT</br>
 1- you must have login to google play store to test (enable google play services) </br>
