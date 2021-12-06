@@ -14,7 +14,7 @@ IMPORTANT</br>
 * library used (3.0.3)
 * you can update it to (4.0.0) by making little changes in code.
 
- *this is for subscription for InApp purchased you will apple changes into code
+ *this is for subscription for InApp purchased you will apply some  changes into repository class code
 
 **if you will not add the real package name or skus so you will unable to open subcription box**
 
